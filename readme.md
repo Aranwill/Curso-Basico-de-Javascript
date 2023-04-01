@@ -29,9 +29,9 @@ Recuerda que **el éxito no se mide por cuánto tiempo te toma aprender**, esa 
     //Declarar una variable
     let nombre;
     //Inicializar la variable 
-    nombre = "Camilo"; 
+    nombre = "Hector"; 
     //Podemos generar este proceso en una sola linea de codigo. 
-    let nombre = "Camilo";
+    let nombre = "Hector";
     ```
     
 - ¿Cuál es la diferencia entre sumar números y concatenar strings?
@@ -58,11 +58,11 @@ Recuerda que **el éxito no se mide por cuánto tiempo te toma aprender**, esa 
 
 ```jsx
 //Variables 
-let name = "Camilo";
-let lastName = "Saavedra";
-let user_name = "cisaa";
+let name = "Hector";
+let lastName = "Rodriguez";
+let user_name = "Hec!";
 let age = 27;
-let mail = "ci.saavedras@gmail.com"
+let mail = "cprueba@gmail.com"
 let adult = true;
 let savedMoney = 1500;
 let debtMoney = 500000;
@@ -75,8 +75,8 @@ let debtMoney = 500000;
 
 ```jsx
 //Nombre completo 
-let name = "Camilo";
-let lastName = "Saavedra";
+let name = "Hector";
+let lastName = "Rodriguez";
 
 console.log(`Mi nombre completo es ${name} ${lastName}`);
 ```
@@ -88,7 +88,7 @@ console.log(`Mi nombre completo es ${name} ${lastName}`);
 let savedMoney = 1000000;
 let debtMoney = 500000;
 let totalMoney = savedMoney - debtMoney;
-console.log(`El total de mi dinero actual es: $${totalMoney`});
+console.log(`El total de mi dinero actual es: $${totalMoney}`);
 ```
 
 ## Funciones
@@ -133,7 +133,7 @@ function presentation(name, lastName, nickName){
   return console.log(`Mi nombre completo es ${name} ${lastName}, pero prefiero que me digas ${nickName}.`);
 }
 
-presentation("Camilo", "Saavedra", "cisaa");
+presentation("Hector", "Rodriguez", "Hec!");
 ```
 
 ## Condicionales
@@ -273,17 +273,17 @@ while (i >= 2) {
 
 ```jsx
 //Basic Math Quiz
-let num = 10;
-let num2 = 10;
-const result = num + num2;
+let num1 = 2;
+let num2 = 2;
+const result = num1 + num2;
 
-let questions = {
-  q1: `Cuanto es ${num} + ${num2}`
+let question = {
+  user: `Cuanto es ${num1} + ${num2}`
 }
 
 function Quizzer() {
 
-  let userInput = prompt(questions.q1);
+  let userInput = prompt(question.user);
 
   if (userInput == result) {
     alert("Felicitaciones, respondiste correctamente el desafio 😎");
@@ -316,7 +316,7 @@ Quizzer();
 ### 2️⃣ Crea una función que pueda recibir cualquier array como parámetro e imprima su primer elemento.
 
 ```jsx
-let myArray = ['Manchester', 'London', 'Liverpool', 'Birmingham', 'Leeds', 'Carlisle'];
+let myArray = ['Alemania', 'España', 'Francia', 'Reino Unido', 'Italia', 'Portugal'];
 
 function readArray(array){
 	console.log(array[0])
@@ -328,11 +328,11 @@ readArray(myArray);
 ### 3️⃣ Crea una función que pueda recibir cualquier array como parámetro e imprima todos sus elementos uno por uno (no se vale imprimir el array completo).
 
 ```jsx
-let myArray = ['Manchester', 'London', 'Liverpool', 'Birmingham', 'Leeds', 'Carlisle'];
+let myArray = ['Alemania', 'España', 'Francia', 'Reino Unido', 'Italia', 'Portugal'];
 
 function readArray(array) {
   for (let i = 0; i < array.length; i++) {
-    console.log(`${i + 1} ${array[i]}`)
+    console.log(`${array[i]}`)
   }
 }
 
@@ -343,9 +343,9 @@ readArray(myArray);
 
 ```jsx
 let myCar = {
-  make: 'Ford',
-  model: 'Mustang',
-  year: 1969
+  brand: 'Toyota',
+  model: 'Corolla',
+  year: 2022
 };
 
 function readObject(object) {
