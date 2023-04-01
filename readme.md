@@ -301,17 +301,23 @@ Quizzer();
 
 - ¿Qué es un array?
     
-    Un array es una colecciones de elementos con valores de una sola variable. Se escriben dentro de [ … ], separado por una coma.
+    Es una lista de elementos. Se escriben dentro de [ … ], separado por una coma.
     
 - ¿Qué es un objeto?
     
-    Es una colección de datos relacionados con múltiples variables con sus valores. 
+    Es una lista de elementos, en los cuales cada uno tiene un nombre clave (key).
     
 - ¿Cuándo es mejor usar objetos o arrays?
     
-    Ocupamos objetos cuando el conjunto de elementos es muy grande y de distintos tipos de valores. 
+    Los arrays son adecuados para almacenar grandes cantidades de datos simples, como una serie de números o cadenas de texto. Los elementos de un array se almacenan como propiedades numéricas del objeto.
+
+    Por otra parte, los objetos son adecuados para almacenar datos más complejos, como una serie de pares de valores clave, donde cada clave está asociada con un valor. Los objetos permiten la adición dinámica de pares clave-valor y la modificación de valores de pares existentes.
+
+    En general, se recomienda utilizar arrays cuando se necesite una colección ordenada de datos simples y accesibles mediante índices numéricos, y objetos cuando se necesite una colección más compleja de pares clave-valor.
     
 - ¿Puedo mezclar arrays con objetos o incluso objetos con arrays?
+
+    Sí, se pueden mezclar arrays y objetos o incluso objetos con arrays en JavaScript. Esto se debe a que en JavaScript, los arrays y los objetos son tipos de datos similares, y ambos son tipos de objetos.
 
 ### 2️⃣ Crea una función que pueda recibir cualquier array como parámetro e imprima su primer elemento.
 
